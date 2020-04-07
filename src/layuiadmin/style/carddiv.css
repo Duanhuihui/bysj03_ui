@@ -1,0 +1,65 @@
+.carddiv{
+	position: relative;
+}
+.carddiv img{
+	margin-top: 5px;
+	height:295px;
+	width:100%;
+	border-radius: 10px;
+}
+/*图片虚化*/
+.carddiv:hover img{
+	 -webkit-filter: blur(2px);
+       -moz-filter: blur(2px);
+        -ms-filter: blur(2px);    
+            filter: blur(2px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false); /* IE6~IE9 */
+}
+.carddiv:hover .carddiv_up a i{
+	display: block;
+}
+.carddiv:hover .carddiv_up_add a i{
+	display: block;
+}
+.carddiv:hover .carddiv_up_love a i{
+	display: block;
+}
+.carddiv_up{
+	position: absolute;
+	bottom: 50%;
+	right:41%;
+}
+/*设置播放按钮格式*/
+.carddiv_icon{
+	font-size: 40px; 
+	color: #1E9FFF;
+	display: none;
+}
+/*加入播放列表*/
+.carddiv_up_add{
+	position: absolute;
+	bottom: 7%;
+	left:7%;
+}
+.carddiv_up_add a i{
+	font-size: 20px; 
+	color: #B0C4DE;
+	display: none;
+}
+
+/*加入喜欢的列表*/
+.carddiv_up_love{
+	position: absolute;
+	bottom: 7%;
+	right:7%;
+}
+.carddiv_up_love a i{
+	font-size: 20px; 
+	color: #B0C4DE;
+	display: none;
+}
+/*设置歌曲名称格式*/
+.card_song_name{
+	font-family: "微软雅黑";
+	font-size: medium;
+}
