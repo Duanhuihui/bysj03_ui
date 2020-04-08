@@ -18,25 +18,36 @@
 
   <style>
   /* 这段样式只是用于演示 */
-  .demo-list .layui-card{height: 340px;}
+   
   </style>
+  
+  <div id="#">
+  	<a href="#singer">singer</a>
+  	<a href="#findSong">findSong</a>
+  </div>
   <!--轮播图-->
   <div class="layui-row" style="margin: 20px 15px 0px 15px;">
   	<!--<div class="layui-col-md10 layui-col-md-offset1">-->
       <div class="grid-demo">
       	<div class="layui-carousel" id="test1">
 				  <div carousel-item>
-				    <div><img src="../../../../static/image/qq.jpg" height="100%" width="100%"></div>
-				    <div>条目2</div>
-				    <div>条目3</div>
-				    <div>条目4</div>
-				    <div>条目5</div>
+				    <div><img src="../../../../static/image/banner5.jpg" height="100%" width="100%"></div>
+				    <div><img src="../../../../static/image/banner4.jpg" height="100%" width="100%"></div>
+				    <div><img src="../../../../static/image/banner2.jpg" height="100%" width="100%"></div>
+				    <div><img src="../../../../static/image/banner3.jpg" height="100%" width="100%"></div>
+				    <div><img src="../../../../static/image/banner6.jpg" height="100%" width="100%"></div>
 				  </div>
 				</div>
       <!--</div>-->
     </div>
   </div>
-<hr />
+<!--发现音乐和轮播图分割线-->
+  <div>
+  	<hr />
+  	<a name="findSong"><span>发现音乐</span></a>
+  	<hr />
+  </div>
+  <!---->
 
   <div class="layui-fluid" id="LAY-component-grid-list">
     <div class="layui-row layui-col-space25 demo-list">
@@ -44,7 +55,7 @@
         <!-- 填充内容 -->
         <div class="layui-card">
           <div class="carddiv">
-            <!--引入照片-->
+            <!--引入照片 0-->
           	<img src="../../../../static/image/0.jfif" />
           	<div class="carddiv_up">
           		<!--跳转播放界面-->
@@ -66,111 +77,557 @@
           	<br />
           	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
           </div>
+          
         </div>
-        
       </div>
 			<div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
 				<div class="layui-card">
-					<!--引入照片-->
-					<div class="carddiv" >
-						<img src="../../../../static/image/0.jfif" />
-						
-						<div class="carddiv_up">
-							<!--跳转播放界面-->
-		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>
-						</div>
-					</div>
-					<!--引入照片结束-->
-					<div class="card_song_name">
-						<span>歌曲名称:</span>
-						<br />
-						<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
-					</div>
+					<!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 1-->
+          	<img src="../../../../static/image/2.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
 				</div>
 			</div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          2
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 2-->
+          	<img src="../../../../static/image/3.jfif" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          3
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 3-->
+          	<img src="../../../../static/image/4.jfif" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          4
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 4-->
+          	<img src="../../../../static/image/5.jfif" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          5
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 5-->
+          	<img src="../../../../static/image/2.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">  
-          6
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 6-->
+          	<img src="../../../../static/image/6.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          7
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 7-->
+          	<img src="../../../../static/image/8.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          8
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 8-->
+          	<img src="../../../../static/image/10.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          9
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 9-->
+          	<img src="../../../../static/image/9.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          10
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 10-->
+          	<img src="../../../../static/image/7.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          11
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 11-->
+          	<img src="../../../../static/image/2.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          12
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 12-->
+          	<img src="../../../../static/image/qq.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          13
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 13-->
+          	<img src="../../../../static/image/6.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          14
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片14-->
+          	<img src="../../../../static/image/11.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          15
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 15-->
+          	<img src="../../../../static/image/13.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          16
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 16-->
+          	<img src="../../../../static/image/16.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
         </div>
       </div>
       <div class="layui-col-sm4 layui-col-md3 layui-col-lg2">
         <div class="layui-card">
-          17
+          <!--专辑详情介绍开始-->
+          <div class="carddiv">
+            <!--引入照片 17-->
+          	<img src="../../../../static/image/14.jpg" />
+          	<div class="carddiv_up">
+          		<!--跳转播放界面-->
+		        	<a href="#"><i class="layui-icon layui-icon-play carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_add">
+          		<!--添加到播放列表-->
+		        	<a href="#"><i class="layui-icon layui-icon-add-circle carddiv_icon"></i></a>   
+		        </div>
+		        <div class="carddiv_up_love">
+          		<!--添加收藏-->
+		        	<a href="#"><i class="layui-icon layui-icon-star carddiv_icon"></i></a>   
+		        </div>
+		        
+          </div>
+          <!--引入照片结束-->
+          <div class="card_song_name">
+          	<span >歌曲名称:</span>
+          	<br />
+          	<span>歌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;手:</span>
+          </div>
+          <!--专辑详情介绍结束-->
+        </div>
+      </div>
+      
+    </div>
+    
+  </div>
+  <!--发现音乐和音乐人分割线-->
+  <div>
+  	<hr />
+  	<a name="singer"><span>音乐人</span></a>
+  	<hr />
+  </div>
+  <!---->
+  <!--引入-->
+  <div class="layui-fluid" id="LAY-component-grid-stack">
+    <div class="layui-row layui-col-space10">
+      <div class="layui-col-md4">
+        <!-- 填充内容 -->
+        <div class="layui-card">
+          <div class="layui-card-header">01</div>
+          <div class="layui-card-body">001</div>
+        </div>
+      </div>
+      
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">02</div>
+          <div class="layui-card-body">002</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">03</div>
+          <div class="layui-card-body">003</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">04</div>
+          <div class="layui-card-body">004</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">05</div>
+          <div class="layui-card-body">005</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">06</div>
+          <div class="layui-card-body">006</div>
         </div>
       </div>
     </div>
   </div>
-
+  <!--引入-->
   <script src="../../../layuiadmin/layui/layui.js"></script>  
   <script>
 	  layui.config({

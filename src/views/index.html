@@ -93,12 +93,16 @@
               </a>
 							<li class="layui-row" id="wdrj" style="display: block;">
 							    <div class="layui-col-md6 layui-col-md-offset3">
-							      <span class="grid-demo grid-demo-bg1" lay-href="component/grid/list.html">发现音乐</span>
+							      <a href="component/grid/list.html#findSong" target="mainIframe">
+							      	<span class="grid-demo grid-demo-bg1">发现音乐</span>
+							      </a>
 							    </div>
 							    
 							    <div class="layui-col-md6 layui-col-md-offset3">
 							    	<br/>
-							      <span class="grid-demo grid-demo-bg1" lay-href="template/personalpage.html">音乐人</span>
+							      <a href="component/grid/list.html#singer" target="mainIframe">
+							      	<span class="grid-demo grid-demo-bg1" >音乐人</span>
+							      </a>
 							    </div>
 							    <div class="layui-col-md6 layui-col-md-offset3">
 							    	<br/>
@@ -190,7 +194,9 @@
         </div>
         <div class="layui-tab" lay-unauto lay-allowClose="true" lay-filter="layadmin-layout-tabs">
           <ul class="layui-tab-title" id="LAY_app_tabsheader">
-            <li lay-id="home/console.html" lay-attr="home/console.html" class="layui-this"><i class="layui-icon layui-icon-home"></i></li>
+            <li lay-id="component/grid/list.html" lay-attr="component/grid/list.html" class="layui-this">
+            	<i class="layui-icon layui-icon-home"></i>
+            </li>
           </ul>
         </div>
       </div>
@@ -199,7 +205,7 @@
       <!-- 主体内容 -->
       <div class="layui-body" id="LAY_app_body">
         <div class="layadmin-tabsbody-item layui-show">
-          <iframe src="home/console.html" frameborder="0" class="layadmin-iframe"></iframe>
+          <iframe name="mainIframe" id="mainIframe" src="component/grid/list.html" frameborder="0" class="layadmin-iframe"></iframe>
         </div>
       </div>
       
@@ -232,9 +238,19 @@
 			$('#wdrj1').hide();
 			$('#wdrj2').hide();
 			$('#wdrj3').hide();
-		}
-		
+		}	
 		};
+  </script>
+  <script type="text/javascript">
+  	function setWindowScrollTop(win, topHeight){
+    if(win.document.documentElement)
+    {
+        win.document.documentElement.scrollTop = topHeight;
+    }
+    if(win.document.body){
+        win.document.body.scrollTop = topHeight;
+    }
+    };
   </script>
 </body>
 </html>

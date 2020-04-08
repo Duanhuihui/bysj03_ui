@@ -1,9 +1,17 @@
+/*layui-card*/
+.layui-card{
+	height: 320px;
+	/*background-color: #F2F2F2;*/
+	border-radius: 10px;
+	
+}
 .carddiv{
 	position: relative;
 }
+/*音乐封面*/
 .carddiv img{
-	margin-top: 5px;
-	height:295px;
+	
+	height:275px;
 	width:100%;
 	border-radius: 10px;
 }
@@ -24,15 +32,16 @@
 .carddiv:hover .carddiv_up_love a i{
 	display: block;
 }
+/*播放按钮位置*/
 .carddiv_up{
 	position: absolute;
-	bottom: 50%;
+	bottom: 40%;
 	right:41%;
 }
 /*设置播放按钮格式*/
 .carddiv_icon{
 	font-size: 40px; 
-	color: #1E9FFF;
+	color: #FFFFFF;
 	display: none;
 }
 /*加入播放列表*/
@@ -41,9 +50,10 @@
 	bottom: 7%;
 	left:7%;
 }
+/*加入播放图标列表*/
 .carddiv_up_add a i{
 	font-size: 20px; 
-	color: #B0C4DE;
+	color: #FFFFFF;
 	display: none;
 }
 
@@ -53,13 +63,15 @@
 	bottom: 7%;
 	right:7%;
 }
+/*收藏图标格式*/
 .carddiv_up_love a i{
 	font-size: 20px; 
-	color: #B0C4DE;
+	color: #FFFFFF;
 	display: none;
 }
 /*设置歌曲名称格式*/
 .card_song_name{
 	font-family: "微软雅黑";
 	font-size: medium;
+	margin-left: 5px;
 }
