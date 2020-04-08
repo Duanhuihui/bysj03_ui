@@ -14,17 +14,7 @@
   <script src="../../../../jquery.js"></script>
 </head>
 <body>
-
-
-  <style>
-  /* 这段样式只是用于演示 */
-   
-  </style>
-  
-  <div id="#">
-  	<a href="#singer">singer</a>
-  	<a href="#findSong">findSong</a>
-  </div>
+	<a name="top"></a>
   <!--轮播图-->
   <div class="layui-row" style="margin: 20px 15px 0px 15px;">
   	<!--<div class="layui-col-md10 layui-col-md-offset1">-->
@@ -43,7 +33,7 @@
   </div>
 <!--发现音乐和轮播图分割线-->
   <div>
-  	<hr />
+  	<hr class="layui-bg-blue"/>
   	<a name="findSong"><span>发现音乐</span></a>
   	<hr />
   </div>
@@ -579,7 +569,7 @@
   </div>
   <!--发现音乐和音乐人分割线-->
   <div>
-  	<hr />
+  	<hr class="layui-bg-blue"/>
   	<a name="singer"><span>音乐人</span></a>
   	<hr />
   </div>
@@ -590,8 +580,40 @@
       <div class="layui-col-md4">
         <!-- 填充内容 -->
         <div class="layui-card">
-          <div class="layui-card-header">01</div>
-          <div class="layui-card-body">001</div>
+          <div class="layui-card-header">音乐人名字：混元霹雳小旋风</div>
+          <div class="layui-card-body">
+          	 <div class="layui-row layui-col-space30 ">
+					    <div class="layui-col-xs4">
+					      <div class="grid-demo grid-demo-bg1" style="background-color: blue;"><img src="../../../../static/image/12.jpg"/></div>
+					    </div>
+					    <div class="layui-col-xs8">
+					      <div class="grid-demo" >
+					      	<table class="layui-table" lay-skin="nob" lay-size="sm" >
+									  <colgroup>
+									    <col width="60">
+									    <col width="100">
+									  </colgroup>
+									  <thead>
+									    <tr>
+									      <th>音乐</th>
+									      <th>热度</th>
+									    </tr> 
+									  </thead>
+									  <tbody>
+									    <tr>
+									      <td>贤心</td>
+									      <td><span class="layui-badge">赤</span></td>
+									    </tr>
+									    <tr>
+									      <td>许闲心</td>
+									      <td><span class="layui-badge layui-bg-blue">蓝</span></td>
+									    </tr>
+									  </tbody>
+									</table>
+					      </div>
+					    </div>
+					  </div>
+          </div>
         </div>
       </div>
       

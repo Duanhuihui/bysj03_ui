@@ -16,6 +16,11 @@
   </script>
 </head>
 <body class="layui-layout-body">
+	<style type="text/css">
+		a{
+			color: #FFFFFF;
+		}
+	</style>
   
   <div id="LAY_app">
     <div class="layui-layout layui-layout-admin">
@@ -87,20 +92,20 @@
           
           <ul class="layui-nav layui-nav-tree" lay-shrink="all" id="LAY-system-side-menu" lay-filter="layadmin-system-side-menu">
             <li data-name="home" class="layui-nav-item layui-nav-itemed">
-              <a href="javascript:;" lay-tips="音乐馆" lay-direction="2" lay-href="component/grid/list.html">
+              <a href="component/grid/list.html#top" target="mainIframe" lay-tips="音乐馆" lay-direction="2" lay-href="component/grid/list.html">
                 <i class="layui-icon layui-icon-home"></i>
                 <cite>音乐馆</cite>
               </a>
 							<li class="layui-row" id="wdrj" style="display: block;">
 							    <div class="layui-col-md6 layui-col-md-offset3">
-							      <a href="component/grid/list.html#findSong" target="mainIframe">
+							      <a href="component/grid/list.html#findSong" target="mainIframe" >
 							      	<span class="grid-demo grid-demo-bg1">发现音乐</span>
 							      </a>
 							    </div>
 							    
 							    <div class="layui-col-md6 layui-col-md-offset3">
 							    	<br/>
-							      <a href="component/grid/list.html#singer" target="mainIframe">
+							      <a class="secondnav" href="component/grid/list.html#singer" target="mainIframe" >
 							      	<span class="grid-demo grid-demo-bg1" >音乐人</span>
 							      </a>
 							    </div>
