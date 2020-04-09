@@ -82,7 +82,7 @@
 /*音乐人*/
 .layui-col-xs4 div img{
 	height: 250px;
-	width: 162px;
+	width: 100%;
 	border-radius: 10px;
 }
 
