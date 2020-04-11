@@ -584,29 +584,39 @@
           <div class="layui-card-body">
           	 <div class="layui-row layui-col-space20 ">
 					    <div class="layui-col-xs4">
-					      <div class="grid-demo grid-demo-bg1" style="background-color: blue;"><img src="../../../../static/image/12.jpg"/></div>
+					      <div class="grid-demo grid-demo-bg1 singer">
+					      	<img src="../../../../static/image/12.jpg"/>
+					      </div>
 					    </div>
 					    <div class="layui-col-xs8">
 					      <div class="grid-demo" >
 					      	<table class="layui-table" lay-skin="nob" lay-size="sm" >
-									  <colgroup>
-									    <col width="60">
-									    <col width="100">
-									  </colgroup>
+					
 									  <thead>
 									    <tr>
 									      <th>音乐</th>
 									      <th>热度</th>
+									      <th>操作</th>
 									    </tr> 
 									  </thead>
 									  <tbody>
 									    <tr>
-									      <td>贤心</td>
+									      <td>LostRivers</td>
 									      <td><span class="layui-badge">赤</span></td>
+									      <td class="layui-col-space8">
+									      	<span class="layui-icon layui-icon-star"></span>
+									      	<span class="layui-icon layui-icon-play"></span>
+									      	<span class="layui-icon layui-icon-cart-simple"></span>
+									      </td>
 									    </tr>
 									    <tr>
-									      <td>许闲心</td>
+									      <td>HelleoWorld</td>
 									      <td><span class="layui-badge layui-bg-blue">蓝</span></td>
+									      <td class="layui-col-space8">
+									      	<span class="layui-icon layui-icon-star"></span>
+									      	<span class="layui-icon layui-icon-play"></span>
+									      	<span class="layui-icon layui-icon-cart-simple"></span>
+									      </td>
 									    </tr>
 									  </tbody>
 									</table>
@@ -650,6 +660,89 @@
     </div>
   </div>
   <!--引入-->
+  <!--音乐人和推荐歌单分割线-->
+  <div>
+  	<hr class="layui-bg-blue"/>
+  	<a name="recommend"><span>推荐歌单</span></a>
+  	<hr />
+  </div>
+  <!--推荐歌单-->
+  <!--引入-->
+  <div class="layui-fluid" id="LAY-component-grid-stack">
+    <div class="layui-row layui-col-space10">
+      <div class="layui-col-md4">
+        <!-- 填充内容 -->
+        <div class="layui-card">
+          <div class="layui-card-header">音乐人名字：混元霹雳小旋风</div>
+          <div class="layui-card-body">
+					      <div class="grid-demo" >
+					      	<table class="layui-table" lay-skin="nob" lay-size="sm" >
+									  <thead>
+									    <tr>
+									      <th>音乐</th>
+									      <th>热度</th>
+									      <th>操作</th>
+									    </tr> 
+									  </thead>
+									  <tbody>
+									    <tr>
+									      <td>LostRivers</td>
+									      <td><span class="layui-badge">赤</span></td>
+									      <td class="layui-col-space8">
+									      	<span class="layui-icon layui-icon-star"></span>
+									      	<span class="layui-icon layui-icon-play"></span>
+									      	<span class="layui-icon layui-icon-cart-simple"></span>
+									      </td>
+									    </tr>
+									    <tr>
+									      <td>HelleoWorld</td>
+									      <td><span class="layui-badge layui-bg-blue">蓝</span></td>
+									      <td class="layui-col-space8">
+									      	<span class="layui-icon layui-icon-star"></span>
+									      	<span class="layui-icon layui-icon-play"></span>
+									      	<span class="layui-icon layui-icon-cart-simple"></span>
+									      </td>
+									    </tr>
+									  </tbody>
+									</table>
+					      </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">02</div>
+          <div class="layui-card-body">002</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">03</div>
+          <div class="layui-card-body">003</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">04</div>
+          <div class="layui-card-body">004</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">05</div>
+          <div class="layui-card-body">005</div>
+        </div>
+      </div>
+      <div class="layui-col-md4">
+        <div class="layui-card">
+          <div class="layui-card-header">06</div>
+          <div class="layui-card-body">006</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--推荐歌单-->
   <script src="../../../layuiadmin/layui/layui.js"></script>  
   <script>
 	  layui.config({

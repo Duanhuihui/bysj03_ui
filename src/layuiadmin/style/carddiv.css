@@ -80,9 +80,17 @@
 	margin-left: 5px;
 }
 /*音乐人*/
-.layui-col-xs4 div img{
+.singer img{
 	height: 250px;
 	width: 100%;
 	border-radius: 10px;
 }
-
+/*推荐歌单*/
+.recommend{
+	position: absolute;
+	background-color: blue;
+}
+.recommend  div img{
+	width: 100%;
+	height: 200px;
+}
