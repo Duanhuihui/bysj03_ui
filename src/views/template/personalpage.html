@@ -32,7 +32,7 @@
           <div class="layui-card-body">
             <table class="layui-table" lay-even="" lay-skin="nob">
               <colgroup>
-                <col width="60"> <!--序号-->
+                <col width="80"> <!--序号-->
                 <col width="100"><!--操作-->
                 <col width="300"><!--音乐标题-->
                 <col width="250"><!--歌手-->
@@ -115,6 +115,9 @@
             </table>
           </div>
         </div>
+        <!--分页开始-->
+       <div id="pagesize" align="center"></div>
+       <!--分页结束-->
       
               <!--表格结束-->
               </div>
@@ -122,61 +125,101 @@
             	<!--内容一结束-->
             	<!--内容二开始-->
             	   <div class="panel-body layadmin-homepage-shadow">
-                <a href="javascript:;" class="media-left">
-                  <img src="../../layuiadmin/style/res/template/portrait.png" height="46px" width="46px">
-                </a>
+                
                 <div class="media-body">
-                  <div class="pad-btm">
-                    <p class="fontColor"><a href="javascript:;">胡歌</a>为<span>普通照片</span>添加了新的<span>照片</span></p>
-                    <p class="min-font">
-                      <span class="layui-breadcrumb" lay-separator="-">
-                        <a href="javascript:;" class="layui-icon layui-icon-cellphone"></a>
-                        <a href="javascript:;">从移动</a>
-                        <a href="javascript:;">11分钟前</a>
-                      </span>
-                    </p>         
-                  </div>
-                  <p>历经打磨，@索尼中国 再献新作品—OLED电视A8F完美诞生。很开心一起参加了A8F的“首映礼”！[鼓掌]正如我们演员对舞台的热爱，索尼对科技与艺术的追求才创造出了让人惊喜的作品。作为A1兄弟款，A8F沿袭了黑科技“屏幕发声技术”和高清画质，色彩的出众表现和高端音质，让人在体验的时候如同身临其境。A8F，这次的“视帝”要颁发给你！  索尼官网预售： O网页链接 索尼旗舰店预售：</p>
-                  <div class="media">
-                    <div class="media-right">
-                      <ul class="list-inline">
-                        <li>
-                          <i class="layui-icon layui-icon-camera-fill"></i>
-                          <span>107</span>
-                        </li>
-                        <li>
-                          <i class="layui-icon layui-icon-group"></i>
-                          <span>95</span>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="media-left">
-                      <ul class="list-inline">
-                        <li>
-                          <a href="javascript:;">
-                            <img class="img-xs" src="../../layuiadmin/style/res/template/portrait.png">
-                          </a>
-                        </li>
-                        <li>
-                          <a href="javascript:;">
-                            <img class="img-xs" src="../../layuiadmin/style/res/template/portrait.png">
-                          </a>
-                        </li>
-                        <li>
-                          <a href="javascript:;">
-                            <img class="img-xs" src="../../layuiadmin/style/res/template/portrait.png">
-                          </a>
-                        </li>
-                        <li>
-                          <a href="javascript:;" class="
-
-                          ">
-                            14+
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
+                  <!--表格开始-->
+                <div class="layui-card">
+          <div class="layui-card-header">下载列表</div>
+          <div class="layui-card-body">
+            <table class="layui-table" lay-even="" lay-skin="nob">
+              <colgroup>
+                <col width="80"> <!--序号-->
+                <col width="100"><!--操作-->
+                <col width="300"><!--音乐标题-->
+                <col width="250"><!--歌手-->
+                <col width="300"><!--专辑-->
+                <col width="100"><!--时长-->
+                <col>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>序号</th>
+                  <th>操作</th>
+                  <th>音乐标题</th>
+                  <th>歌手</th>
+                  <th>专辑</th>
+                  <th>时长</th>
+                </tr> 
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>
+                  	<span class="layui-icon layui-icon-star"></span>
+						      	<span class="layui-icon layui-icon-play"></span>
+						      	<span class="layui-icon layui-icon-cart-simple"></span>
+                  </td>
+                  <td>I Will Be OK</td>
+                  <td>FlyBoy / Coby </td>
+                  <td>I Will Be OK</td>
+                  <td>02：45</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>
+                  	<span class="layui-icon layui-icon-star"></span>
+						      	<span class="layui-icon layui-icon-play"></span>
+						      	<span class="layui-icon layui-icon-cart-simple"></span>
+                  </td>
+                  <td>I Will Be OK</td>
+                  <td>FlyBoy / Coby </td>
+                  <td>I Will Be OK</td>
+                  <td>02：45</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>
+                  	<span class="layui-icon layui-icon-star"></span>
+						      	<span class="layui-icon layui-icon-play"></span>
+						      	<span class="layui-icon layui-icon-cart-simple"></span>
+                  </td>
+                  <td>I Will Be OK</td>
+                  <td>FlyBoy / Coby </td>
+                  <td>I Will Be OK</td>
+                  <td>02：45</td>
+                </tr>
+                <tr>
+                  <td>4</td>
+                  <td>
+                  	<span class="layui-icon layui-icon-star"></span>
+						      	<span class="layui-icon layui-icon-play"></span>
+						      	<span class="layui-icon layui-icon-cart-simple"></span>
+                  </td>
+                  <td>I Will Be OK</td>
+                  <td>FlyBoy / Coby </td>
+                  <td>I Will Be OK</td>
+                  <td>02：45</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>
+                  	<span class="layui-icon layui-icon-star"></span>
+						      	<span class="layui-icon layui-icon-play"></span>
+						      	<span class="layui-icon layui-icon-cart-simple"></span>
+                  </td>
+                  <td>I Will Be OK</td>
+                  <td>FlyBoy / Coby </td>
+                  <td>I Will Be OK</td>
+                  <td>02：45</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+       <!--分页开始-->
+       <div id="pagesize1" align="center"></div>
+       <!--分页结束-->
+              <!--表格结束-->
                 </div>
               </div>
             
@@ -308,6 +351,18 @@
   }).extend({
     index: 'lib/index' //主入口模块
   }).use(['index']);
+  layui.use('laypage',function(){
+  	var laypage=layui.laypage;
+  	
+  	laypage.render({
+  		elem:'pagesize'
+  		,count:60
+  	});
+  	laypage.render({
+  		elem:'pagesize1'
+  		,count:50
+  	});
+  });
   </script>
 </body>
 </html>
